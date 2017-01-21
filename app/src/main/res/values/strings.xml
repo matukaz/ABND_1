@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ABND_1</string>
+    <string name="description">FOB Solutions is a software development company that focuses on providing innovative solutions and services for smart device platforms to our customers.</string>
+    <string name="aadress">Paldiski mnt 29, 10612, Tallinn, Estonia</string>
+    <string name="phone_nr">+372 516 9307</string>
+    <string name="email">info@fob-solutions.com</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teddydev.abnd_1.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview_top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/top_banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview_top_banner"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/activity_vertical_padding_sides"
+        android:paddingStart="@dimen/activity_vertical_padding_sides"
+        android:paddingTop="@dimen/activity_vertical_padding_content_area">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_padding_sides">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:text="@string/description"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/activity_vertical_padding_sides"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_label_black_24dp"
+            android:text="@string/aadress"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/activity_vertical_padding_sides"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:text="@string/phone_nr"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/activity_vertical_padding_sides"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:text="@string/email"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>
